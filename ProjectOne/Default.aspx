@@ -33,10 +33,10 @@
                     <asp:Button ID="ButtonLessPerson" runat="server" Text="-" ForeColor="Black" />
                     <asp:TextBox ID="TextBoxPeople" runat="server" Width="103px" OnTextChanged="TextBoxPeople_TextChanged" AutoPostBack="True" ForeColor="Black"></asp:TextBox>
                     <asp:Button ID="ButtonAddPerson" runat="server" Text="+" OnClick="ButtonAddPerson_Click" ForeColor="Black" />
-                    <asp:Image ID="ImagePerson1" runat="server" ImageUrl="Person_icon_BLACK-01.svg.png" Width="50px"/>
-                    <asp:Image ID="ImagePerson2" runat="server" ImageUrl="Person_icon_BLACK-01.svg.png" Width="50px"/>
-                    <asp:Image ID="ImagePerson3" runat="server" ImageUrl="Person_icon_BLACK-01.svg.png" Width="50px"/>
-                    <asp:Image ID="ImagePerson4" runat="server" ImageUrl="Person_icon_BLACK-01.svg.png" Width="50px"/>
+                    <asp:Image ID="ImagePerson1" runat="server" ImageUrl="Person_icon_BLACK-01.svg.png" Width="50px" ForeColor="White"/>
+                    <asp:Image ID="ImagePerson2" runat="server" ImageUrl="Person_icon_BLACK-01.svg.png" Width="50px" ForeColor="White"/>
+                    <asp:Image ID="ImagePerson3" runat="server" ImageUrl="Person_icon_BLACK-01.svg.png" Width="50px" ForeColor="White"/>
+                    <asp:Image ID="ImagePerson4" runat="server" ImageUrl="Person_icon_BLACK-01.svg.png" Width="50px" ForeColor="White"/>
                     <br/>
                     <br/>
                     <asp:Label ID="Label6" runat="server" Text="Kids:"></asp:Label>
@@ -52,10 +52,10 @@
                     <asp:Button ID="ButtonLessDays" runat="server" Text="-" ForeColor="Black" />
                     <asp:TextBox ID="TextBoxDays" runat="server" Width="103px" ForeColor="Black"></asp:TextBox>
                     <asp:Button ID="ButtonAddDays" runat="server" Text="+" ForeColor="Black" />
-                    <asp:Image ID="ImageHouse1" runat="server" ImageUrl="home_house_simple_glyph_pixel_perfect-512.png" Width="50px"/>
-                    <asp:Image ID="ImageHouse2" runat="server" ImageUrl="home_house_simple_glyph_pixel_perfect-512.png" Width="50px"/>
-                    <asp:Image ID="ImageHouse3" runat="server" ImageUrl="home_house_simple_glyph_pixel_perfect-512.png" Width="50px"/>
-                    <asp:Image ID="ImageHouse4" runat="server" ImageUrl="home_house_simple_glyph_pixel_perfect-512.png" Width="50px"/>
+                    <asp:Image ID="ImageHouse1" runat="server" ImageUrl="home_house_simple_glyph_pixel_perfect-512.png" Width="50px" ForeColor="White"/>
+                    <asp:Image ID="ImageHouse2" runat="server" ImageUrl="home_house_simple_glyph_pixel_perfect-512.png" Width="50px" ForeColor="White"/>
+                    <asp:Image ID="ImageHouse3" runat="server" ImageUrl="home_house_simple_glyph_pixel_perfect-512.png" Width="50px" ForeColor="White"/>
+                    <asp:Image ID="ImageHouse4" runat="server" ImageUrl="home_house_simple_glyph_pixel_perfect-512.png" Width="50px" ForeColor="White"/>
                     <br/>
                     <asp:Label ID="Label7" runat="server" Text="Price per night"></asp:Label>
                     <br/>    

@@ -1,8 +1,13 @@
-﻿jumbotron{
-    background-color: azure;
-}
-
-
+﻿
 body {
-    background-color: darkgrey;
+    background-image: url('../o-COAL-HARBOUR-VANCOUVEr.jpg');
+    color: white;
+    font: bold;
+    padding:initial;
 }
+
+.jumbotron
+{
+    background-color: aquamarine;     
+}
+
