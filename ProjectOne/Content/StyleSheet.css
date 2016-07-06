@@ -1,3 +1,8 @@
-﻿body {
-    background-color: blue;
+﻿jumbotron{
+    background-color: azure;
+}
+
+
+body {
+    background-color: darkgrey;
 }
