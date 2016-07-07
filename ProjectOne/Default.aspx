@@ -14,11 +14,12 @@
 
 <body>
 
+<form id="form1" runat="server">
+
   <div class ="jumbotron">
       <h1>Holiday Budget Calculator</h1>
   </div>
 
-<form id="form1" runat="server">
     <div class="Container">
         <div class="myStyle">
             <div class="row">   
