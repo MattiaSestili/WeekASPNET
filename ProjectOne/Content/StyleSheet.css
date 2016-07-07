@@ -4,20 +4,21 @@ body {
     
 }
 
-.jumbotron {
-     background-image: url('../maxresdefault.jpg');
+.jumbotron
+{
+   color: white;
+   background-color: #555151
 }
 
 
-.myStyle
-{
-    background-image: url('../o-COAL-HARBOUR-VANCOUVEr.jpg');
-    border-style:ridge;
+.myStyle {
+    background-image: url('../o-COAL-HARBOUR-VANCOUVER-f.jpg');
+    border-style: ridge;
     width: 900px;
     color: white;
     font: bold;
     margin-left: 2px;
-    padding-right: 300px; 
+    padding-right: 300px;
     height: 550px;
 }
 
