@@ -1,9 +1,7 @@
 ﻿
 body {
-    background-image: url('../o-COAL-HARBOUR-VANCOUVEr.jpg');
-    color: white;
-    font: bold;
-    padding:initial;
+    background-color: white;
+    
 }
 
 .jumbotron
@@ -11,3 +9,18 @@ body {
     background-color: aquamarine;     
 }
 
+
+.myStyle
+{
+    background-image: url('../o-COAL-HARBOUR-VANCOUVEr.jpg');
+    width: 900px;
+    color: white;
+    font: bold;
+    padding-right: 300px; 
+    height: 550px;
+}
+
+.row
+{
+    width: 1000px
+}
