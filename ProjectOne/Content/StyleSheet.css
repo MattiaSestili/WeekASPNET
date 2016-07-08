@@ -1,9 +1,14 @@
 ﻿
 body {
-    background-color: lightgray;
+
+    background-color: white;
     
 }
 
+.container-fluid
+{
+  
+}
 .jumbotron
 {
    color: white;
@@ -11,18 +16,26 @@ body {
 }
 
 
-.myStyle {
-    background-image: url('../o-COAL-HARBOUR-VANCOUVER-f.jpg');
-    border-style: ridge;
-    width: 900px;
+.myStyle 
+{
+    background-color: blue;
+    border-radius:4px,4px,4px,4px;
+    width: 60%;
     color: white;
-    font: bold;
-    margin-left: 2px;
-    padding-right: 300px;
-    height: 550px;
+    padding-top: 10px;
+    padding-left: 20px;
+    height: 400px;
 }
 
-.row
+.description
+ {
+    color: black;
+    font-size: 16px;
+    font: bold;
+    padding-bottom: 40px;
+}
+
+#chartContainer
 {
-    width: 1000px
+    padding-left: 300px;     
 }

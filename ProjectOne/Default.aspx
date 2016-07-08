@@ -9,7 +9,8 @@
     <title></title>    
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/StyleSheet.css" rel="stylesheet" />
-  
+   <script type="text/javascript" src="http://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <script src="Scripts/ChartJavaScript.js"></script>
 </head>
 
 <body>
@@ -20,7 +21,7 @@
       <h1>Holiday Budget Calculator</h1>
   </div>
 
-    <div class="Container">
+    <div class="container-fluid">
         <div class="myStyle">
             <div class="row">   
                 <div class="col-sm-3">   
@@ -85,7 +86,7 @@
         
 
                 <div class ="col-sm-3">
-                    <p>Day Costs</p>                
+                    <p class="daycost-paragraph"> Days Costs</p>                
                         <asp:Label ID="Label2" runat="server" Text="Budget meals out?"></asp:Label>
                         <br/>               
                         <asp:TextBox ID="TextBoxEatAmount" runat="server" ForeColor="Black"></asp:TextBox>
@@ -111,10 +112,29 @@
                         <asp:Button ID="ButtonCalculate" runat="server" Text="Calculate" OnClick="ButtonCalculate_Click" ForeColor="Black" />
                         <asp:Label ID="LabelResult" runat="server" Text=""></asp:Label>
                 </div>
+                <div class ="col-sm-3">
+                    <div id="chartContainer" style="height: 300px; width: 500px;">
+                    </div>
+                </div>
+            </div>
+            <br />
+            <br />
+            <br />
+            <div class="row">
+                <div class="description">
+                 <h2>Things to think about</h2>
+                <p>
+                    Deciding how much money to take on holiday can feel like plucking a figure out of the air.
+                    But if you break it down and think about what you might spend in a few key areas,
+                    you can get a realistic travel budget in mind. 
+                    Read these tips and use our travel budget calculator,
+                    so you can plan ahead and avoid any spending shocks along the way.
+                </p>
+                </div>
             </div>
         </div>
     </div>
 </form>
-   
+  
 </body>
 </html>
