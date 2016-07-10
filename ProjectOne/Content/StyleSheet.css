@@ -3,39 +3,75 @@ body {
 
     background-color: white;
     
+    
 }
 
 .container-fluid
 {
-  
-}
-.jumbotron
-{
-   color: white;
-   background-color: #555151
+    color: #c7c5c5;
+    background-image: url('../maxresdefalt.jpg');
+    background-repeat: no-repeat;
+    margin-left: 5px;
 }
 
-
-.myStyle 
+.jumbotron 
 {
-    background-color: blue;
-    border-radius:4px,4px,4px,4px;
-    width: 60%;
     color: white;
-    padding-top: 10px;
-    padding-left: 20px;
-    height: 400px;
+    background-image: url('../tokyo-street-at-night-high-quality-wallpaper.jpg');
+    background-repeat: no-repeat;
+    width: 100%;   
+}
+
+.col-lg-3
+{
+     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     font-size: 13px;
+     text-align: left;
+     color:white;
+     margin-top:10px;
+}
+
+.flightCostStyle
+{
+    margin-left: 5px;
+    font-weight: bold;
+    
+}
+.transportsStyle
+{
+    margin-left: 30px;
+    font-weight: bold;
+
+}
+
+.daycostParagraph
+{
+     font-weight: bold;
 }
 
 .description
  {
     color: black;
-    font-size: 16px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-right:30%;
+    text-align: left;
+    font-weight: bold;
+    margin-bottom: 50px;
+ }
+
+h2
+{
+    color: red;
     font: bold;
-    padding-bottom: 40px;
+    font-size: 18px;
 }
 
-#chartContainer
+.col-lg-12
 {
-    padding-left: 300px;     
+    margin-top: 20px;
+}
+
+.chartContainer
+{
+    background-color:white;
 }

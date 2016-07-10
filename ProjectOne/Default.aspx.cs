@@ -9,6 +9,15 @@ public partial class _Default : System.Web.UI.Page
 {
     int numberPeople;
     int numberKids;
+    int bus = 0;
+    int taxi = 0;
+    int train = 0;
+    int activities = 0;
+    int shopping = 0;
+    int meal = 0;
+    double kidsMeal = 0;
+
+
 
     protected void Page_Load(object sender, EventArgs e)
     {
@@ -95,15 +104,17 @@ public partial class _Default : System.Web.UI.Page
     protected void ButtonCalculate_Click(object sender, EventArgs e)
     {
         int accomodation = Convert.ToInt32(TextBoxPerNight.Text) * Convert.ToInt32(TextBoxDays.Text);
-        int transports = Convert.ToInt32(TextBoxBus.Text) + Convert.ToInt32(TextBoxTaxi.Text) + Convert.ToInt32(TextBoxTrain.Text);
+        int bus = Convert.ToInt32(TextBoxBus.Text);
+        int taxi = Convert.ToInt32(TextBoxTaxi.Text);
+        int train = Convert.ToInt32(TextBoxTrain.Text);
         int activities = Convert.ToInt32(TextBoxActivities.Text);
         int shopping = Convert.ToInt32(TextBoxShopping.Text);
         int meal = Convert.ToInt32(TextBoxEatAmount.Text) * Convert.ToInt32(TextBoxEatDays.Text);
-        //double kidsMeal = Convert.ToInt32(TextBoxKids.Text) / 0.2;
+        double kidsMeal = Convert.ToInt32(TextBoxKids.Text) / 0.2;
 
 
-        int results = accomodation + transports + activities + shopping + meal;
-        LabelResult.Text = "Your budget for this holiday is " + results;
+        int results = accomodation + taxi + bus + train + activities + shopping + meal;
+        // "Your budget for " + TextBoxTravel.Text + " is: " + results;
     }
 
     protected void TextBoxKids_TextChanged(object sender, EventArgs e)
